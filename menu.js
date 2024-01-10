@@ -127,8 +127,6 @@ function addCart(strMealThumb, strMeal) {
     cartMsg.innerHTML = '';
   }, 2000);
 
-  
- 
   showCart();
   saveMenu();
 }
@@ -165,8 +163,6 @@ function decreaseQuantity(index) {
     arry[index].quantity -= 1;
   }
 
-  
-  
   showCart();
 
   const cartHeight = cart.clientHeight;
